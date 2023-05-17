@@ -46,5 +46,13 @@ namespace pryComettoNEPTUNO
                 MessageBox.Show(error.Message);
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            frmMenu frmMenu = new frmMenu();
+            this.Hide();
+            frmMenu.ShowDialog();
+            this.Close();
+        }
     }
 }

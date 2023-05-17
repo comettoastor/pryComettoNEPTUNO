@@ -28,8 +28,13 @@ namespace pryComettoNEPTUNO
             }
             else
             {
-                MessageBox.Show("El usuario/contraseña ingresados son incorrectos","Error",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("El usuario/contraseña ingresados son incorrectos", "Usuario/Contraseña Incorrectos", MessageBoxButtons.OK,MessageBoxIcon.Warning);
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
