@@ -22,6 +22,7 @@ namespace pryComettoNEPTUNO
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
             clsBaseDeDatos.ListarClientes(dgvClientes,"NEPTUNO","Clientes");
+            mrcFiltros.Enabled = true;
         }
 
         private void frmClientes_Load(object sender, EventArgs e)

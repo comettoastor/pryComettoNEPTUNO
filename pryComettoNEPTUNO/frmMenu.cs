@@ -29,5 +29,13 @@ namespace pryComettoNEPTUNO
         {
             Application.Exit();
         }
+
+        private void btnTablas_Click(object sender, EventArgs e)
+        {
+            frmTablas frmTablas = new frmTablas();
+            this.Hide();
+            frmTablas.ShowDialog();
+            this.Close();
+        }
     }
 }

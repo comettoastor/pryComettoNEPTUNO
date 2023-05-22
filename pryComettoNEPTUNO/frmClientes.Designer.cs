@@ -188,6 +188,7 @@
             this.mrcFiltros.Controls.Add(this.cmbCiudad);
             this.mrcFiltros.Controls.Add(this.lblPais);
             this.mrcFiltros.Controls.Add(this.lblCiudad);
+            this.mrcFiltros.Enabled = false;
             this.mrcFiltros.Location = new System.Drawing.Point(12, 64);
             this.mrcFiltros.Name = "mrcFiltros";
             this.mrcFiltros.Size = new System.Drawing.Size(360, 46);
