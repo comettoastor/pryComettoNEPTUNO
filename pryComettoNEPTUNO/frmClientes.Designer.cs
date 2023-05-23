@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClientes));
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.idCliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre_Compania = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -244,6 +245,8 @@
             this.Controls.Add(this.lblListado);
             this.Controls.Add(this.btnListar);
             this.Controls.Add(this.dgvClientes);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "frmClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Listado de Clientes - NEPTUNO";

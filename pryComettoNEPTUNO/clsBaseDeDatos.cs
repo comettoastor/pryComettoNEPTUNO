@@ -95,12 +95,13 @@ namespace pryComettoNEPTUNO
             }
         }
 
-        public void ListarPais(DataGridView dgvClientes, string BaseDeDatos, string Tabla, ComboBox cmbPais)
+        public void ListarPais(DataGridView dgvClientes, string BaseDeDatos, string Tabla, ComboBox cmbPais, ComboBox cmbCiudad)
         {
-            Conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + BaseDeDatos + ".accdb;Persist Security Info=False;");
-            dgvClientes.Rows.Clear();
             if (cmbPais.SelectedIndex != -1)
             {
+                Conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + BaseDeDatos + ".accdb;Persist Security Info=False;");
+                dgvClientes.Rows.Clear();
+                cmbCiudad.SelectedIndex = -1;
                 try
                 {
                     Comando.Connection = Conexion;
@@ -126,41 +127,48 @@ namespace pryComettoNEPTUNO
             }
         }
 
-        public void ListarCiudad(DataGridView dgvClientes, string BaseDeDatos, string Tabla, ComboBox cmbCiudad)
+        public void ListarCiudad(DataGridView dgvClientes, string BaseDeDatos, string Tabla, ComboBox cmbCiudad, ComboBox cmbPais)
         {
-            Conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + BaseDeDatos + ".accdb;Persist Security Info=False;");
-            dgvClientes.Rows.Clear();
-            try
+            if (cmbCiudad.SelectedIndex != -1)
             {
-                Comando.Connection = Conexion;
-                Comando.CommandText = Tabla;
-                Comando.CommandType = CommandType.TableDirect;
-                Comando.Connection.Open();
-
-                Lector = Comando.ExecuteReader();
-
-                while (Lector.Read())
+                Conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + BaseDeDatos + ".accdb;Persist Security Info=False;");
+                dgvClientes.Rows.Clear();
+                cmbPais.SelectedIndex = -1;
+                try
                 {
-                    if (Lector[5].ToString() == cmbCiudad.Text)
+                    Comando.Connection = Conexion;
+                    Comando.CommandText = Tabla;
+                    Comando.CommandType = CommandType.TableDirect;
+                    Comando.Connection.Open();
+
+                    Lector = Comando.ExecuteReader();
+
+                    while (Lector.Read())
                     {
-                        dgvClientes.Rows.Add(Lector[0], Lector[1], Lector[2], Lector[3], Lector[4], Lector[5], Lector[6], Lector[7], Lector[8], Lector[9], Lector[10]);
+                        if (Lector[5].ToString() == cmbCiudad.Text)
+                        {
+                            dgvClientes.Rows.Add(Lector[0], Lector[1], Lector[2], Lector[3], Lector[4], Lector[5], Lector[6], Lector[7], Lector[8], Lector[9], Lector[10]);
+                        }
                     }
+                    Comando.Connection.Close();
                 }
-                Comando.Connection.Close();
-            }
-            catch (Exception error)
-            {
-                MessageBox.Show(error.Message);
+                catch (Exception error)
+                {
+                    MessageBox.Show(error.Message);
+                }
             }
         }
-        public string ListarTablas(ComboBox cmbTablas)
+        public string ListarTablas(ComboBox cmbTablas, DataGridView dgvTablas, TextBox txtBaseDatos)
         {
+            dgvTablas.DataSource = null;
+            cmbTablas.SelectedIndex = -1;
             string cadenaConexion = "";
             using (OpenFileDialog OpenFileDialog = new OpenFileDialog())
             {
                 if (OpenFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     string archivo = OpenFileDialog.FileName;
+                    txtBaseDatos.Text = Path.GetFileName(archivo);
 
                     if (Path.GetExtension(archivo) == ".accdb")
                     {
@@ -201,27 +209,30 @@ namespace pryComettoNEPTUNO
 
         public void MostrarTablas(ComboBox cmbTablas, string cadenaConexion, DataGridView dgvTablas)
         {
-            Conexion.ConnectionString = cadenaConexion;
-
-            try
+            if (cmbTablas.SelectedIndex != -1)
             {
-                Comando.Connection = Conexion;
-                Comando.CommandText = cmbTablas.Text;
-                Comando.CommandType = CommandType.TableDirect;
-                Comando.Connection.Open();
+                Conexion.ConnectionString = cadenaConexion;
 
-                Lector = Comando.ExecuteReader();
+                try
+                {
+                    Comando.Connection = Conexion;
+                    Comando.CommandText = cmbTablas.Text;
+                    Comando.CommandType = CommandType.TableDirect;
+                    Comando.Connection.Open();
 
-                DataTable tabla = new DataTable();
-                tabla.Load(Lector);
+                    Lector = Comando.ExecuteReader();
 
-                dgvTablas.DataSource = tabla;
+                    DataTable tabla = new DataTable();
+                    tabla.Load(Lector);
 
-                Comando.Connection.Close();
-            }
-            catch (Exception error)
-            {
-                MessageBox.Show(error.Message);
+                    dgvTablas.DataSource = tabla;
+
+                    Comando.Connection.Close();
+                }
+                catch (Exception error)
+                {
+                    MessageBox.Show(error.Message);
+                }
             }
         }
     }

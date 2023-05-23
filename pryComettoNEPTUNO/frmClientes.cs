@@ -34,13 +34,13 @@ namespace pryComettoNEPTUNO
         private void cmbPais_SelectedIndexChanged(object sender, EventArgs e)
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
-            clsBaseDeDatos.ListarPais(dgvClientes, "NEPTUNO", "Clientes", cmbPais);
+            clsBaseDeDatos.ListarPais(dgvClientes, "NEPTUNO", "Clientes", cmbPais, cmbCiudad);
         }
 
         private void cmbCiudad_SelectedIndexChanged(object sender, EventArgs e)
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
-            clsBaseDeDatos.ListarCiudad(dgvClientes, "NEPTUNO", "Clientes", cmbCiudad);
+            clsBaseDeDatos.ListarCiudad(dgvClientes, "NEPTUNO", "Clientes", cmbCiudad, cmbPais);
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
