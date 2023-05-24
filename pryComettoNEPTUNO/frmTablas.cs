@@ -29,9 +29,12 @@ namespace pryComettoNEPTUNO
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
             cadenaConexion = clsBaseDeDatos.ListarTablas(cmbTablas, dgvTablas, txtBaseDatos);
-            lblBaseDatos.Enabled = true;
-            lblTabla.Enabled = true;
-            cmbTablas.Enabled = true;
+            if (cadenaConexion != "")
+            {
+                lblBaseDatos.Enabled = true;
+                lblTabla.Enabled = true;
+                cmbTablas.Enabled = true;
+            }
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
