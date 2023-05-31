@@ -28,7 +28,7 @@ namespace pryComettoNEPTUNO
         private void frmClientes_Load(object sender, EventArgs e)
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
-            clsBaseDeDatos.CargarPaisCiudad(cmbCiudad, cmbPais, "NEPTUNO", "Clientes");
+            clsBaseDeDatos.CargarPais(cmbCiudad, cmbPais, "NEPTUNO", "Clientes");
         }
 
         private void cmbPais_SelectedIndexChanged(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace pryComettoNEPTUNO
         private void cmbCiudad_SelectedIndexChanged(object sender, EventArgs e)
         {
             clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
-            clsBaseDeDatos.ListarCiudad(dgvClientes, "NEPTUNO", "Clientes", cmbCiudad, cmbPais);
+            clsBaseDeDatos.ListarCiudad(dgvClientes, "NEPTUNO", "Clientes", cmbCiudad);
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

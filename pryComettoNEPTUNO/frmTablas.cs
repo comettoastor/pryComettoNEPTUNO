@@ -19,16 +19,17 @@ namespace pryComettoNEPTUNO
             InitializeComponent();
         }
 
+        clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
+
         private void cmbTablas_SelectedIndexChanged(object sender, EventArgs e)
         {
-            clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
             clsBaseDeDatos.MostrarTablas(cmbTablas, cadenaConexion, dgvTablas);
         }
 
         private void btnBaseDatos_Click(object sender, EventArgs e)
         {
-            clsBaseDeDatos clsBaseDeDatos = new clsBaseDeDatos();
-            cadenaConexion = clsBaseDeDatos.ListarTablas(cmbTablas, dgvTablas, txtBaseDatos);
+            clsBaseDeDatos.ListarTablas(cmbTablas, dgvTablas, txtBaseDatos);
+            cadenaConexion = clsBaseDeDatos.cadenaConexion;
             if (cadenaConexion != "")
             {
                 lblBaseDatos.Enabled = true;

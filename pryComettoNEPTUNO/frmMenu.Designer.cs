@@ -33,6 +33,7 @@
             this.mrcConsultas = new System.Windows.Forms.GroupBox();
             this.btnTablas = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.btnPedidos = new System.Windows.Forms.Button();
             this.mrcConsultas.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@
             // 
             // mrcConsultas
             // 
+            this.mrcConsultas.Controls.Add(this.btnPedidos);
             this.mrcConsultas.Controls.Add(this.btnTablas);
             this.mrcConsultas.Controls.Add(this.btnListadoClientes);
             this.mrcConsultas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,6 +88,19 @@
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // btnPedidos
+            // 
+            this.btnPedidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnPedidos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPedidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidos.Location = new System.Drawing.Point(18, 84);
+            this.btnPedidos.Name = "btnPedidos";
+            this.btnPedidos.Size = new System.Drawing.Size(131, 49);
+            this.btnPedidos.TabIndex = 2;
+            this.btnPedidos.Text = "Pedidos";
+            this.btnPedidos.UseVisualStyleBackColor = false;
+            this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,5 +124,6 @@
         private System.Windows.Forms.GroupBox mrcConsultas;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnTablas;
+        private System.Windows.Forms.Button btnPedidos;
     }
 }

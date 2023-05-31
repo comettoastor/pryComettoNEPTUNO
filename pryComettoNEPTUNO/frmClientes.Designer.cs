@@ -204,7 +204,7 @@
             this.mrcFiltros.Enabled = false;
             this.mrcFiltros.Location = new System.Drawing.Point(12, 64);
             this.mrcFiltros.Name = "mrcFiltros";
-            this.mrcFiltros.Size = new System.Drawing.Size(360, 46);
+            this.mrcFiltros.Size = new System.Drawing.Size(349, 46);
             this.mrcFiltros.TabIndex = 7;
             this.mrcFiltros.TabStop = false;
             this.mrcFiltros.Text = "Filtros";
@@ -213,7 +213,7 @@
             // 
             this.cmbPais.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPais.FormattingEnabled = true;
-            this.cmbPais.Location = new System.Drawing.Point(232, 16);
+            this.cmbPais.Location = new System.Drawing.Point(44, 18);
             this.cmbPais.Name = "cmbPais";
             this.cmbPais.Size = new System.Drawing.Size(121, 21);
             this.cmbPais.Sorted = true;
@@ -224,7 +224,7 @@
             // 
             this.cmbCiudad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCiudad.FormattingEnabled = true;
-            this.cmbCiudad.Location = new System.Drawing.Point(55, 16);
+            this.cmbCiudad.Location = new System.Drawing.Point(220, 18);
             this.cmbCiudad.Name = "cmbCiudad";
             this.cmbCiudad.Size = new System.Drawing.Size(121, 21);
             this.cmbCiudad.Sorted = true;
@@ -234,7 +234,7 @@
             // lblPais
             // 
             this.lblPais.AutoSize = true;
-            this.lblPais.Location = new System.Drawing.Point(194, 19);
+            this.lblPais.Location = new System.Drawing.Point(6, 21);
             this.lblPais.Name = "lblPais";
             this.lblPais.Size = new System.Drawing.Size(32, 13);
             this.lblPais.TabIndex = 9;
@@ -243,7 +243,7 @@
             // lblCiudad
             // 
             this.lblCiudad.AutoSize = true;
-            this.lblCiudad.Location = new System.Drawing.Point(6, 19);
+            this.lblCiudad.Location = new System.Drawing.Point(171, 21);
             this.lblCiudad.Name = "lblCiudad";
             this.lblCiudad.Size = new System.Drawing.Size(43, 13);
             this.lblCiudad.TabIndex = 8;

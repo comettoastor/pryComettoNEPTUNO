@@ -37,5 +37,13 @@ namespace pryComettoNEPTUNO
             frmTablas.ShowDialog();
             this.Close();
         }
+
+        private void btnPedidos_Click(object sender, EventArgs e)
+        {
+            frmPedidos frmPedidos = new frmPedidos();
+            this.Hide();
+            frmPedidos.ShowDialog();
+            this.Close();
+        }
     }
 }
