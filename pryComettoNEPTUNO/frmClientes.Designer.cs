@@ -76,6 +76,7 @@
             this.Fax});
             this.dgvClientes.Location = new System.Drawing.Point(12, 116);
             this.dgvClientes.Name = "dgvClientes";
+            this.dgvClientes.ReadOnly = true;
             this.dgvClientes.RowHeadersVisible = false;
             this.dgvClientes.Size = new System.Drawing.Size(699, 252);
             this.dgvClientes.TabIndex = 1;
@@ -84,66 +85,77 @@
             // 
             this.idCliente.HeaderText = "Id. de Cliente";
             this.idCliente.Name = "idCliente";
+            this.idCliente.ReadOnly = true;
             this.idCliente.Width = 87;
             // 
             // Nombre_Compania
             // 
             this.Nombre_Compania.HeaderText = "Nombre de compañia";
             this.Nombre_Compania.Name = "Nombre_Compania";
+            this.Nombre_Compania.ReadOnly = true;
             this.Nombre_Compania.Width = 122;
             // 
             // Nombre_Contacto
             // 
             this.Nombre_Contacto.HeaderText = "Nombre del contacto";
             this.Nombre_Contacto.Name = "Nombre_Contacto";
+            this.Nombre_Contacto.ReadOnly = true;
             this.Nombre_Contacto.Width = 120;
             // 
             // Cargo_Contacto
             // 
             this.Cargo_Contacto.HeaderText = "Cargo del contacto";
             this.Cargo_Contacto.Name = "Cargo_Contacto";
+            this.Cargo_Contacto.ReadOnly = true;
             this.Cargo_Contacto.Width = 112;
             // 
             // Direccion
             // 
             this.Direccion.HeaderText = "Dirección";
             this.Direccion.Name = "Direccion";
+            this.Direccion.ReadOnly = true;
             this.Direccion.Width = 77;
             // 
             // Ciudad
             // 
             this.Ciudad.HeaderText = "Ciudad";
             this.Ciudad.Name = "Ciudad";
+            this.Ciudad.ReadOnly = true;
             this.Ciudad.Width = 65;
             // 
             // Region
             // 
             this.Region.HeaderText = "Region";
             this.Region.Name = "Region";
+            this.Region.ReadOnly = true;
             this.Region.Width = 66;
             // 
             // Codigo_Postal
             // 
             this.Codigo_Postal.HeaderText = "Código Postal";
             this.Codigo_Postal.Name = "Codigo_Postal";
+            this.Codigo_Postal.ReadOnly = true;
             this.Codigo_Postal.Width = 89;
             // 
             // Pais
             // 
             this.Pais.HeaderText = "País";
             this.Pais.Name = "Pais";
+            this.Pais.ReadOnly = true;
             this.Pais.Width = 54;
             // 
             // Telefono
             // 
             this.Telefono.HeaderText = "Teléfono";
             this.Telefono.Name = "Telefono";
+            this.Telefono.ReadOnly = true;
             this.Telefono.Width = 74;
             // 
             // Fax
             // 
             this.Fax.HeaderText = "Fax";
             this.Fax.Name = "Fax";
+            this.Fax.ReadOnly = true;
             this.Fax.Width = 49;
             // 
             // btnListar
@@ -204,6 +216,7 @@
             this.cmbPais.Location = new System.Drawing.Point(232, 16);
             this.cmbPais.Name = "cmbPais";
             this.cmbPais.Size = new System.Drawing.Size(121, 21);
+            this.cmbPais.Sorted = true;
             this.cmbPais.TabIndex = 11;
             this.cmbPais.SelectedIndexChanged += new System.EventHandler(this.cmbPais_SelectedIndexChanged);
             // 
@@ -214,6 +227,7 @@
             this.cmbCiudad.Location = new System.Drawing.Point(55, 16);
             this.cmbCiudad.Name = "cmbCiudad";
             this.cmbCiudad.Size = new System.Drawing.Size(121, 21);
+            this.cmbCiudad.Sorted = true;
             this.cmbCiudad.TabIndex = 10;
             this.cmbCiudad.SelectedIndexChanged += new System.EventHandler(this.cmbCiudad_SelectedIndexChanged);
             // 

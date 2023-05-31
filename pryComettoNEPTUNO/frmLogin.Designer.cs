@@ -32,8 +32,8 @@
             this.btnIngresar = new System.Windows.Forms.Button();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.lblContrasenia = new System.Windows.Forms.Label();
+            this.txtContrasenia = new System.Windows.Forms.TextBox();
             this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -65,22 +65,22 @@
             this.lblUsuario.TabIndex = 3;
             this.lblUsuario.Text = "Usuario:";
             // 
-            // label1
+            // lblContrasenia
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 69);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Contraseña:";
+            this.lblContrasenia.AutoSize = true;
+            this.lblContrasenia.Location = new System.Drawing.Point(35, 69);
+            this.lblContrasenia.Name = "lblContrasenia";
+            this.lblContrasenia.Size = new System.Drawing.Size(64, 13);
+            this.lblContrasenia.TabIndex = 4;
+            this.lblContrasenia.Text = "Contraseña:";
             // 
-            // txtContraseña
+            // txtContrasenia
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(105, 66);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(100, 20);
-            this.txtContraseña.TabIndex = 1;
+            this.txtContrasenia.Location = new System.Drawing.Point(105, 66);
+            this.txtContrasenia.Name = "txtContrasenia";
+            this.txtContrasenia.PasswordChar = '*';
+            this.txtContrasenia.Size = new System.Drawing.Size(100, 20);
+            this.txtContrasenia.TabIndex = 1;
             // 
             // btnSalir
             // 
@@ -100,8 +100,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(266, 156);
             this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.lblContrasenia);
+            this.Controls.Add(this.txtContrasenia);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnIngresar);
@@ -120,8 +120,8 @@
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label lblUsuario;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.Label lblContrasenia;
+        private System.Windows.Forms.TextBox txtContrasenia;
         private System.Windows.Forms.Button btnSalir;
     }
 }

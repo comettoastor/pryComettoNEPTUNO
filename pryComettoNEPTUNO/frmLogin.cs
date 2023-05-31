@@ -19,7 +19,7 @@ namespace pryComettoNEPTUNO
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text == "admin" && txtContraseña.Text == "admin")
+            if (txtUsuario.Text == "admin" && txtContrasenia.Text == "admin")
             {
                 frmMenu frmMenu = new frmMenu();
                 this.Hide();

@@ -43,7 +43,7 @@
             // 
             this.cmbTablas.Enabled = false;
             this.cmbTablas.FormattingEnabled = true;
-            this.cmbTablas.Location = new System.Drawing.Point(252, 20);
+            this.cmbTablas.Location = new System.Drawing.Point(288, 21);
             this.cmbTablas.Name = "cmbTablas";
             this.cmbTablas.Size = new System.Drawing.Size(121, 21);
             this.cmbTablas.TabIndex = 0;
@@ -66,9 +66,14 @@
             // 
             // dgvTablas
             // 
+            this.dgvTablas.AllowUserToAddRows = false;
+            this.dgvTablas.AllowUserToDeleteRows = false;
+            this.dgvTablas.AllowUserToOrderColumns = true;
             this.dgvTablas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTablas.Location = new System.Drawing.Point(12, 70);
             this.dgvTablas.Name = "dgvTablas";
+            this.dgvTablas.ReadOnly = true;
+            this.dgvTablas.RowHeadersVisible = false;
             this.dgvTablas.Size = new System.Drawing.Size(518, 306);
             this.dgvTablas.TabIndex = 2;
             // 
@@ -76,7 +81,7 @@
             // 
             this.lblTabla.AutoSize = true;
             this.lblTabla.Enabled = false;
-            this.lblTabla.Location = new System.Drawing.Point(209, 23);
+            this.lblTabla.Location = new System.Drawing.Point(245, 24);
             this.lblTabla.Name = "lblTabla";
             this.lblTabla.Size = new System.Drawing.Size(37, 13);
             this.lblTabla.TabIndex = 3;
@@ -97,7 +102,7 @@
             this.txtBaseDatos.Location = new System.Drawing.Point(95, 21);
             this.txtBaseDatos.Name = "txtBaseDatos";
             this.txtBaseDatos.ReadOnly = true;
-            this.txtBaseDatos.Size = new System.Drawing.Size(100, 20);
+            this.txtBaseDatos.Size = new System.Drawing.Size(144, 20);
             this.txtBaseDatos.TabIndex = 5;
             // 
             // btnVolver
