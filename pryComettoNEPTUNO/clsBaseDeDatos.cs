@@ -19,10 +19,12 @@ namespace pryComettoNEPTUNO
         public OleDbDataReader Lector;
         public OleDbConnection Conexion = new OleDbConnection();
 
-        public void ListarClientes(DataGridView dgvClientes, string BaseDeDatos, string Tabla)
+        public void ListarClientes(DataGridView dgvClientes, string BaseDeDatos, string Tabla, ComboBox cmbCiudad, ComboBox cmbPais)
         {
             Conexion = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + BaseDeDatos + ".accdb;Persist Security Info=False;");
             dgvClientes.Rows.Clear();
+            cmbCiudad.SelectedIndex = -1;
+            cmbPais.SelectedIndex = -1;
             try
             {
                 Comando.Connection = Conexion;

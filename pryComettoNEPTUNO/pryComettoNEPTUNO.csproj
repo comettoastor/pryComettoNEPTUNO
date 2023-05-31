@@ -118,5 +118,70 @@
   <ItemGroup>
     <None Include="bin\Debug\icono.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\1-_ALUMNO-_ITIC.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\2_EL_CLUB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\Base de datos 4_Empresa de tansportes.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\Base de datos 5 ASPIRANTES EMPLEO.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\Base de datos 7 INSTITUTO DE INFORMATICA.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\Base de Datos6_DEPORTE.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\BIBLIO.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\BIBLIOTECA.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\DEPORTE.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\NEPTUNO.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\PEDIDOS_DE_CLIENTES.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\VERDULEROS.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\BASES DE DATOS\VIDEOCLUB.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

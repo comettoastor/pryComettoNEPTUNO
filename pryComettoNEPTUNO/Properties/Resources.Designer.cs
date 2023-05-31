@@ -61,6 +61,96 @@ namespace pryComettoNEPTUNO.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] _1__ALUMNO__ITIC {
+            get {
+                object obj = ResourceManager.GetObject("_1__ALUMNO__ITIC", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] _2_EL_CLUB {
+            get {
+                object obj = ResourceManager.GetObject("_2_EL_CLUB", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Base_de_datos_4_Empresa_de_tansportes {
+            get {
+                object obj = ResourceManager.GetObject("Base_de_datos_4_Empresa_de_tansportes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Base_de_datos_5_ASPIRANTES_EMPLEO {
+            get {
+                object obj = ResourceManager.GetObject("Base_de_datos_5_ASPIRANTES_EMPLEO", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Base_de_datos_7_INSTITUTO_DE_INFORMATICA {
+            get {
+                object obj = ResourceManager.GetObject("Base_de_datos_7_INSTITUTO_DE_INFORMATICA", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] Base_de_Datos6_DEPORTE {
+            get {
+                object obj = ResourceManager.GetObject("Base_de_Datos6_DEPORTE", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] BIBLIO {
+            get {
+                object obj = ResourceManager.GetObject("BIBLIO", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] BIBLIOTECA {
+            get {
+                object obj = ResourceManager.GetObject("BIBLIOTECA", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] DEPORTE {
+            get {
+                object obj = ResourceManager.GetObject("DEPORTE", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
         internal static System.Drawing.Icon icono {
@@ -76,6 +166,46 @@ namespace pryComettoNEPTUNO.Properties {
         internal static byte[] NEPTUNO {
             get {
                 object obj = ResourceManager.GetObject("NEPTUNO", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] NEPTUNO1 {
+            get {
+                object obj = ResourceManager.GetObject("NEPTUNO1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] PEDIDOS_DE_CLIENTES {
+            get {
+                object obj = ResourceManager.GetObject("PEDIDOS_DE_CLIENTES", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] VERDULEROS {
+            get {
+                object obj = ResourceManager.GetObject("VERDULEROS", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] VIDEOCLUB {
+            get {
+                object obj = ResourceManager.GetObject("VIDEOCLUB", resourceCulture);
                 return ((byte[])(obj));
             }
         }

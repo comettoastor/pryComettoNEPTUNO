@@ -118,10 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Base_de_Datos6_DEPORTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\Base de Datos6_DEPORTE.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Base_de_datos_4_Empresa_de_tansportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\Base de datos 4_Empresa de tansportes.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Base_de_datos_5_ASPIRANTES_EMPLEO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\Base de datos 5 ASPIRANTES EMPLEO.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Base_de_datos_7_INSTITUTO_DE_INFORMATICA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\Base de datos 7 INSTITUTO DE INFORMATICA.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BIBLIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\BIBLIO.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BIBLIOTECA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\BIBLIOTECA.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DEPORTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\DEPORTE.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\icono.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NEPTUNO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\NEPTUNO.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NEPTUNO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\NEPTUNO.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PEDIDOS_DE_CLIENTES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\PEDIDOS_DE_CLIENTES.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VERDULEROS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\VERDULEROS.mdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VIDEOCLUB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\VIDEOCLUB.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1__ALUMNO__ITIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\1-_ALUMNO-_ITIC.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2_EL_CLUB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\BASES DE DATOS\2_EL_CLUB.accdb;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
