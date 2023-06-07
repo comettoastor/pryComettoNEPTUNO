@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPedidos));
             this.mrcFiltros = new System.Windows.Forms.GroupBox();
             this.cmbPedido = new System.Windows.Forms.ComboBox();
             this.lblPedido = new System.Windows.Forms.Label();
@@ -130,8 +131,10 @@
             this.ClientSize = new System.Drawing.Size(369, 294);
             this.Controls.Add(this.dgvPedidos);
             this.Controls.Add(this.mrcFiltros);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmPedidos";
-            this.Text = "frmPedidos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Pedidos - NEPTUNO";
             this.Load += new System.EventHandler(this.frmPedidos_Load);
             this.mrcFiltros.ResumeLayout(false);
             this.mrcFiltros.PerformLayout();

@@ -133,7 +133,7 @@
             this.MaximizeBox = false;
             this.Name = "frmTablas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tablas";
+            this.Text = "Tablas - NEPTUNO";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTablas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
